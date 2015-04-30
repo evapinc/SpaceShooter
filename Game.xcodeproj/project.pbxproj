@@ -15,6 +15,9 @@
 		D881A3BC1AF23539009D6C30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D881A3BB1AF23539009D6C30 /* Images.xcassets */; };
 		D881A3BF1AF23539009D6C30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D881A3BD1AF23539009D6C30 /* LaunchScreen.xib */; };
 		D881A3CB1AF23539009D6C30 /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881A3CA1AF23539009D6C30 /* GameTests.swift */; };
+		D881A3D71AF23848009D6C30 /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = D881A3D41AF23848009D6C30 /* Player.png */; };
+		D881A3D81AF23848009D6C30 /* Bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = D881A3D51AF23848009D6C30 /* Bullet.png */; };
+		D881A3D91AF23848009D6C30 /* Enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = D881A3D61AF23848009D6C30 /* Enemy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		D881A3C41AF23539009D6C30 /* GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D881A3C91AF23539009D6C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D881A3CA1AF23539009D6C30 /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
+		D881A3D41AF23848009D6C30 /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Player.png; sourceTree = "<group>"; };
+		D881A3D51AF23848009D6C30 /* Bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bullet.png; sourceTree = "<group>"; };
+		D881A3D61AF23848009D6C30 /* Enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Enemy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 		D881A3AE1AF23539009D6C30 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D881A3D41AF23848009D6C30 /* Player.png */,
+				D881A3D51AF23848009D6C30 /* Bullet.png */,
+				D881A3D61AF23848009D6C30 /* Enemy.png */,
 				D881A3AF1AF23539009D6C30 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -199,9 +208,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D881A3BF1AF23539009D6C30 /* LaunchScreen.xib in Resources */,
+				D881A3D81AF23848009D6C30 /* Bullet.png in Resources */,
 				D881A3BC1AF23539009D6C30 /* Images.xcassets in Resources */,
 				D881A3B31AF23539009D6C30 /* GameScene.sks in Resources */,
 				D881A3BA1AF23539009D6C30 /* Main.storyboard in Resources */,
+				D881A3D91AF23848009D6C30 /* Enemy.png in Resources */,
+				D881A3D71AF23848009D6C30 /* Player.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
