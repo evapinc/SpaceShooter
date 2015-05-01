@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D864FB7A1AF37E6F009190FC /* EndScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D864FB791AF37E6F009190FC /* EndScene.sks */; };
 		D881A3B11AF23539009D6C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881A3B01AF23539009D6C30 /* AppDelegate.swift */; };
 		D881A3B31AF23539009D6C30 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D881A3B21AF23539009D6C30 /* GameScene.sks */; };
 		D881A3B51AF23539009D6C30 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D881A3B41AF23539009D6C30 /* GameScene.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D864FB791AF37E6F009190FC /* EndScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EndScene.sks; sourceTree = "<group>"; };
 		D881A3AB1AF23539009D6C30 /* Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D881A3AF1AF23539009D6C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D881A3B01AF23539009D6C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				D881A3B01AF23539009D6C30 /* AppDelegate.swift */,
 				D881A3B21AF23539009D6C30 /* GameScene.sks */,
 				D881A3B41AF23539009D6C30 /* GameScene.swift */,
+				D864FB791AF37E6F009190FC /* EndScene.sks */,
 				D881A3B61AF23539009D6C30 /* GameViewController.swift */,
 				D881A3B81AF23539009D6C30 /* Main.storyboard */,
 				D881A3BB1AF23539009D6C30 /* Images.xcassets */,
@@ -207,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D864FB7A1AF37E6F009190FC /* EndScene.sks in Resources */,
 				D881A3BF1AF23539009D6C30 /* LaunchScreen.xib in Resources */,
 				D881A3D81AF23848009D6C30 /* Bullet.png in Resources */,
 				D881A3BC1AF23539009D6C30 /* Images.xcassets in Resources */,
@@ -429,6 +433,7 @@
 				D881A3D01AF23539009D6C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D881A3D11AF23539009D6C30 /* Build configuration list for PBXNativeTarget "GameTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +442,7 @@
 				D881A3D31AF23539009D6C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
