@@ -61,9 +61,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             (firstBody.categoryBitMask == PhysicsCatagory.Bullet) && (secondBody.categoryBitMask == PhysicsCatagory.Enemy)){
             
             // #*#*#*#*#    |
-            // #*#*#*#*#    |
-            // #*#*#*#*#    |           Problem occuring Below
-            // #*#*#*#*#    |
+            // #*#*#*#*#    |                                       |
+            // #*#*#*#*#    |           Problem occuring Below      |
+            // #*#*#*#*#    |                                       V
             // #*#*#*#*#    |
 
                 
